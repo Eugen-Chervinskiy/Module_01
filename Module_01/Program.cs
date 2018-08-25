@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Module_01.Task_1;
+using System;
+
 
 namespace Module_01
 {
@@ -10,6 +8,14 @@ namespace Module_01
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine(SumCalculator.SumByForLoop(1,2,3,-2,3f));
+
+            Console.WriteLine(SumCalculator.SumByWhileLoop(1, 2, 3.00333d, -2, 3f));
+
+            Console.WriteLine(SumCalculator.SumByRecursion(null));
+
+            Console.ReadKey();
         }
     }
 }
